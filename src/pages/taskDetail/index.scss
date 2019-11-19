@@ -1,0 +1,61 @@
+.task-detail {
+  background-color: #F2F4F7;
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 100px ;
+  .color-bg{
+    background-color: #F2F4F7;
+  }
+  .bottom-line{
+    border-bottom: 1px solid #EEF1F7;
+  }
+  .addPoint{
+    font-size:28px;
+    font-weight:500;
+    color:rgba(74,102,162,1);
+  }
+  .empty-block{
+    background-color: #ffffff;
+    margin-top: 280px;
+    text-align: center;
+    .add-icon{
+      background-image: url("../../assets/image/ic_add@2x.png");
+      height: 40px;
+      width: 40px;
+      background-size: 100% 100%;
+      margin: auto;
+    }
+    .add-label{
+      margin-top: 20px;
+      font-size:28px;
+      font-weight:500;
+      color:rgba(155,162,175,1);
+    }
+  }
+  .left-view{
+    font-size:28px;
+    font-weight:500;
+    color:rgba(96,103,123,1);
+    .num{
+      padding-left: 15px;
+      font-size:32px;
+      font-weight:500;
+      color:rgba(74,102,162,1);
+    }
+  }
+  .btn{
+    width: 255px;
+    text-align: center;
+    border-radius:10px;
+    font-size:28px;
+    font-weight:500;
+    line-height:64px;
+  }
+  .submit{
+    background:rgba(74,102,162,1);
+    color:rgba(255,255,255,1);
+  }
+}
+.white-bg{
+  background-color: #ffffff;
+}

@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "temple-miniProgram",
+  "description": "【福建庙宇】【小程序】【Taro】",
+  "appid": "wxc32c8bebb9d94d3d",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}

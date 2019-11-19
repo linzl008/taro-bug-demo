@@ -1,0 +1,156 @@
+$base-color: #e04545;
+$color-blue: #03a4ee;
+$color-green: #52c47b;
+$color-f1: #f1f1f1;
+$color-f8: #f8f8f8;
+$color-ff: #ffffff;
+$color-333: #333333;
+$color-666: #666666;
+$color-999: #999999;
+$color-ccc: #cccccc;
+$color-bg: #F2F7FA;
+$warning: #ED5645;
+$primary: #4A66A2;
+$info: #9BA2AF;
+@mixin cf36 {
+  font-size: 36px;
+  color: $base-color;
+}
+
+@mixin fontFamily {
+  font-weight: bold;
+}
+
+@mixin c6f30 {
+  font-size: 30px;
+  color: $color-666;
+}
+
+@mixin c3f30 {
+  font-size: 30px;
+  color: $color-333;
+}
+
+@mixin c9f26 {
+  font-size: 26px;
+  color: $color-999;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb180 {
+  margin-bottom: 180px;
+}
+.placeholder {
+  color: #cccccc;
+}
+.border {
+  border-bottom: 1px solid $color-f1;
+}
+.border-bottom {
+  border-bottom: 1px solid $color-f1;
+}
+.border-top {
+  border-top: 1px solid $color-f1;
+}
+.border-left {
+  border-left: 1px solid $color-f1;
+}
+.border-right {
+  border-right: 1px solid $color-f1;
+}
+.refused {
+  color: $base-color !important;
+}
+.proceed {
+  color: $color-blue !important;
+}
+.success {
+  color: $color-green !important;
+}
+.untreated {
+  color: $color-666 !important;
+}
+.normal999{
+  color: $color-666 !important;
+}
+
+.flex-col-around-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-row-between-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-row-start-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.my-icon{
+  display: inline-block;
+  background-size: 100% 100%;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+.flex-item{
+  flex:1
+}
+
+.view-btn {
+  padding: 0px 13px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 10px;
+  background: $color-f8;
+  font-size: 26px;
+}
+
+.common-btn {
+  width: 100%;
+  height: 100px;
+  background: $base-color;
+  font-size: 36px;
+  border: $base-color;
+  color: $color-ff;
+}
+.circle {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+.flex-v-center{
+  display: flex;
+  align-content: center;
+}
+.bg-warning{
+  background-color: $warning;
+}
+.bg-primary{
+  background-color: $primary;
+}
+.bg-info{
+  background-color: $info;
+}
+
+.warning{
+  color: $warning;
+}
+.primary{
+  color: $primary;
+}
+.info{
+  color: $info;
+}
